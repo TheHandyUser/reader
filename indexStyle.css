@@ -1,0 +1,127 @@
+.pacifico-font {
+    font-family: 'Pacifico', cursive;
+}
+
+.indieflower-font {
+    font-family: 'Indie Flower', cursive;
+}
+
+.sniglet-font {
+    font-family: 'Sniglet', cursive;
+}
+
+.lobster-font {
+    font-family: 'Lobster', cursive;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#time {
+    font-size: 50px;
+    margin-left: 45%;
+    margin-top: 20%;
+}
+
+#startbutton {
+    margin-left: 45%;
+    height: 38px;
+    background: #F44203;
+    border: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#endbutton {
+    margin-left: 45%;
+    height: 38px;
+    background: #F44203;
+    border: 0;
+    padding-left: 53px;
+    padding-right: 53px;
+    margin-bottom: 25%;
+    color: #fff;
+}
+
+#brandname {
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+header {
+    background: #071348;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #F44203 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+header .highlight,
+header .current a {
+    color: #F44203;
+    font-weight: bold;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: -60px;
+    margin-right: 20px;
+}
+
+header a:hover {
+    color: #ccc;
+    font-weight: bold;
+}
+
+footer {
+    padding-right: 10%;
+    padding-left: 10%;
+    float: bottom;
+    color: #fff;
+    background-color: #071348;
+    text-align: center;
+    border-top: #F44203 solid;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
